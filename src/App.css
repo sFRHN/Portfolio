@@ -1,17 +1,55 @@
 .about-section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
-  height: 30vh;
+  justify-content: space-around;
   border: 1px solid white;
 }
 
 .about-left {
+  background-color: lightblue;
+  margin: 5px;
   padding: 20px;
-  width: 50%;
+  width: 400px;
 }
 
 .about-right {
+  margin: 5px;
   padding: 20px;
-  width: 50%;
+  width: 400px;
+}
+
+.experience-section {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-item {
+  width: 400px;
+  padding: 20px;
+  margin: 5px;
+}
+
+.projects-section {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  background-color: grey;
+  width: 250px;
+  padding: 20px;
+  margin: 5px;
+}
+
+.project-item ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.project-item ul li {
+  background-color: blue;
+  border-radius: 50px;
+  margin: 5px;
 }

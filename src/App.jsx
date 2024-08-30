@@ -40,7 +40,8 @@ function About() {
 
 function Experience() {
   return(
-    <>
+    <div className="experience">
+
       <h1>Experience</h1>
 
       <div className="experience-section">
@@ -60,20 +61,22 @@ function Experience() {
         </div>
 
       </div>
-    </>
+
+    </div>
   )
 }
 
 
 function Projects() {
   return(
-    <>
+    <div className="projects">
+
       <h1>Projects</h1>
 
       <div className="projects-section">
 
         <div className="project-item">
-          <h3>Project</h3>
+          <h2>Project</h2>
           <p>Description of the project</p>
           <ul>
             <li>Tech 1</li>
@@ -82,7 +85,7 @@ function Projects() {
         </div>
 
         <div className="project-item">
-          <h3>Project 2</h3>
+          <h2>Project 2</h2>
           <p>Description of the project</p>
           <ul>
             <li>Tech 1</li>
@@ -91,9 +94,8 @@ function Projects() {
         </div>
 
       </div>
-    </>
 
-
+    </div>
 
   )
 }
