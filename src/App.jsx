@@ -15,17 +15,11 @@ function About() {
   return (
     <div className="about-section">
 
-      <div className="about-left">
-        <h1>Who I Am</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Laudantium ratione adipisci quia maxime ipsam tempora aperiam 
-          iusto inventore fuga natus pariatur consequuntur tenetur 
-          excepturi numquam mollitia porro, modi amet magnam.
-        </p>
+      <div className="title">
+        <h1>hey, I'm Farhaan</h1>
       </div>
 
-      <div className="about-right">
-        <h1>About Me</h1>
+      <div className="contact">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
           Earum quam aperiam mollitia. Dolores inventore non provident.
           Officiis aliquam dicta consectetur aut corrupti voluptate, 
@@ -86,6 +80,15 @@ function Projects() {
 
         <div className="project-item">
           <h2>Project 2</h2>
+          <p>Description of the project</p>
+          <ul>
+            <li>Tech 1</li>
+            <li>Tech 2</li>
+          </ul>
+        </div>
+
+        <div className="project-item">
+          <h2>Project 3</h2>
           <p>Description of the project</p>
           <ul>
             <li>Tech 1</li>
