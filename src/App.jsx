@@ -1,4 +1,7 @@
 import './App.css'
+import { FaGit, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function App() {
   return (
@@ -20,11 +23,22 @@ function About() {
       </div>
 
       <div className="contact">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Earum quam aperiam mollitia. Dolores inventore non provident.
-          Officiis aliquam dicta consectetur aut corrupti voluptate, 
-          assumenda id? Distinctio alias quae ratione quisquam.
-        </p>
+        <h1>Connect with me!</h1>
+
+        <div className="icons">
+          <a className="mail-icon" href="mailto:sayedfarhaanrafi@gmail.com" target="_blank">
+            <FaEnvelope />
+          </a>
+
+          <a className="linkedin-icon" href="https://www.linkedin.com/in/sayed-farhaan/" target="_blank">
+            <FaLinkedin />
+          </a>
+
+          <a className="github-icon" href="https://github.com/sFRHN" target="_blank">
+            <FaGithub />
+          </a>
+        </div>
+        
       </div>
 
     </div>
@@ -91,7 +105,7 @@ function Projects() {
         </div>
 
         <div className="project-item">
-          <h2>Project 2</h2>
+          <h2>NextGame</h2>
           <p>
             A web application that helps users decide what to play next 
             by presenting a random game from their Steam library based 
