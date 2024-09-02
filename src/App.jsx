@@ -26,15 +26,15 @@ function About() {
         <h1>Connect with me!</h1>
 
         <div className="icons">
-          <a className="mail-icon" href="mailto:sayedfarhaanrafi@gmail.com" target="_blank">
+          <a className="mail-icon" href="mailto:sayedfarhaanrafi@gmail.com" target="__blank">
             <FaEnvelope />
           </a>
 
-          <a className="linkedin-icon" href="https://www.linkedin.com/in/sayed-farhaan/" target="_blank">
+          <a className="linkedin-icon" href="https://www.linkedin.com/in/sayed-farhaan/" target="__blank">
             <FaLinkedin />
           </a>
 
-          <a className="github-icon" href="https://github.com/sFRHN" target="_blank">
+          <a className="github-icon" href="https://github.com/sFRHN" target="__blank">
             <FaGithub />
           </a>
         </div>
@@ -90,7 +90,7 @@ function Projects() {
       <div className="projects-section">
 
         <div className="project-item">
-          <h2>Controller Tester</h2>
+          <h2><a href="https://github.com/sFRHN" target="__blank">Controller Tester</a></h2>
           <p>
             Developed a Python application using Pygame and PyQt 
             to test the functionality of game controllers, 
@@ -105,7 +105,7 @@ function Projects() {
         </div>
 
         <div className="project-item">
-          <h2>NextGame</h2>
+          <h2><a href="https://github.com/sFRHN/NextGame" target="__blank">NextGame</a></h2>
           <p>
             A web application that helps users decide what to play next 
             by presenting a random game from their Steam library based 
