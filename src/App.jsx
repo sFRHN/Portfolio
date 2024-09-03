@@ -90,7 +90,7 @@ function Projects() {
       <div className="projects-section">
 
         <div className="project-item">
-          <h2><a href="https://github.com/sFRHN" target="__blank">Controller Tester</a></h2>
+          <h2><a href="https://github.com/sFRHN/ControllerTester" target="__blank">ControllerTester</a></h2>
           <p>
             Developed a Python application using Pygame and PyQt 
             to test the functionality of game controllers, 
