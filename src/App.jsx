@@ -55,18 +55,19 @@ function Experience() {
       <div className="experience-section">
 
         <div className="experience-item">
-          <h2>Junior Developer Intern</h2>
-          <h4>Interface Technologies Pvt Ltd | May 2023 - August 2023</h4>
+          <h2>Web Dev Intern & Student Support</h2>
+          <h4>ILS Training Institute | July 2023 - August 2023</h4>
           <p>
-            As a Junior Developer Intern at Interface Technologies,
-            I contributed to web and mobile app development, collaborated 
-            on projects, and assisted in testing and maintaining applications.
+            As an intern at ILS, I gained hands-on experience with HTML, CSS,
+            and basic JavaScripts. I also provided targeted Python assistance
+            to five students, which enhanced their performance. Also evaluated
+            and graded student assignments.
           </p>
         </div>
 
         <div className="experience-item">
           <h2>Information Technology Support</h2>
-          <h4>Punjab National Bank | June 2022 - August 2022</h4>
+          <h4>Punjab National Bank | May 2022 - August 2022</h4>
           <p>
           Assisted in setting up and configuring office computers, 
           managed existing systems for optimal performance, and provided 
@@ -90,7 +91,7 @@ function Projects() {
       <div className="projects-section">
 
         <div className="project-item">
-          <h2><a href="https://github.com/sFRHN/ControllerTester" target="__blank">ControllerTester</a></h2>
+          <h2><a href="https://github.com/sFRHN/ControllerTester" target="__blank">GamePadPulse</a></h2>
           <p>
             Developed a Python application using Pygame and PyQt 
             to test the functionality of game controllers, 
