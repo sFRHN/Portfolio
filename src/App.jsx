@@ -59,7 +59,7 @@ function Experience() {
           <h4>ILS Training Institute | July 2023 - August 2023</h4>
           <p>
             As an intern at ILS, I gained hands-on experience with HTML, CSS,
-            and basic JavaScripts. I also provided targeted Python assistance
+            and basic JavaScript. I also provided targeted Python assistance
             to five students, which enhanced their performance. Also evaluated
             and graded student assignments.
           </p>
